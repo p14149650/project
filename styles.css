@@ -8,7 +8,7 @@ html, body{
 }
 
 nav {
-	height:50px;
+	height:60px;
 	background:rgba(0,0,0,.5);
 	width:100%;
 	position:fixed;
@@ -44,3 +44,35 @@ h2{
 
 p{
 	line-height:30px;
+		font-family:arial;
+	color:green;
+}
+* Style each subsections*/
+.section{
+    height:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.subsection{
+	height: 20%;
+	background: #41f444;
+    padding-top: 50x;	
+}
+.subSection1{
+	background: #00ffc9;
+	box-sizing: border-box;
+}
+.subSection2{
+	background: #00ffc9;
+	box-sizing: border-box;
+}
+.subSection3{
+	background: #00ffc9;
+	box-sizing: border-box;
+}
+.subSection4{
+	background: #00ffc9;
+	box-sizing: border-box;
+}
