@@ -8,7 +8,7 @@ html, body{
 }
 
 nav {
-	height:60px;
+	height:50px;
 	background:rgba(0,0,0,.5);
 	width:100%;
 	position:fixed;
@@ -34,6 +34,9 @@ ul li a{
 	color: #fff;
 	text-decoration: none;
 }
+
+
+
 h2,p{
 	margin-bottom:20px;
 	padding:10px;
@@ -44,10 +47,10 @@ h2{
 
 p{
 	line-height:30px;
-		font-family:arial;
+	font-family:arial;
 	color:green;
 }
-* Style each subsections*/
+/* Style each subsections*/
 .section{
     height:100%;
     background-size:cover;
@@ -76,3 +79,54 @@ p{
 	background: #00ffc9;
 	box-sizing: border-box;
 }
+
+p.inset 
+{border-style: inset;
+ margin: 1 auto;
+}
+
+.sec1{
+	background-image:url(images/Wood.jpg);
+}
+.sec2{
+	background-image:url(images/interests.jpg);
+}
+.sec3{
+	background-image:url(images/skills.png);
+}
+.sec4{
+	background-image:url(images/Wood.jpg);
+}
+.sec5{
+	background-image:url(images/contact.jpg);
+}
+
+
+
+
+
+
+
+/* --------- Basic responsive breakpoint --------- */
+.toggle{
+	width:100%;
+	padding: 10px 20px;
+	background: #001f44;
+	text-align: right;
+	box-sizing: border-box;
+	color:#fff;
+	font-size:20px;
+    	
+}
+@media (max-width:768px)
+{
+     .toggle
+     {
+	display: block;
+     }
+}
+}
+
+
+
+
