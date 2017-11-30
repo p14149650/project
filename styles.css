@@ -35,8 +35,6 @@ ul li a{
 	text-decoration: none;
 }
 
-
-
 h2,p{
 	margin-bottom:20px;
 	padding:10px;
@@ -124,8 +122,24 @@ p.inset
      {
 	display: block;
      }
-}
-}
+	 ul
+	 {
+		 width: 100%;
+		 display: none;
+	 }
+	 ul li
+	 {
+		 display: block;
+		 text-align: center;
+	 }
+	 .active
+	 {
+		 display: block;
+	 }
+		 
+		 
+	 
+
 
 
 
