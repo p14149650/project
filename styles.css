@@ -8,10 +8,10 @@ html, body{
 }
 
 nav {
+	text-align: center;
 	height:50px;
 	background:rgba(0,0,0,.5);
 	width:100%;
-	position:fixed;
 	z-index:99;
 }
 ul {
