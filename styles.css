@@ -14,12 +14,14 @@ nav {
 	width:100%;
 	z-index:99;
 }
+
 ul {
 	width: 80%;
 	margin: 0 auto;
 	padding: 0;
     
 }
+
 /* Style the links inside the navigation bar */
 ul li  {
     list-style: none;
@@ -30,6 +32,7 @@ ul li:hover
 {
     background-color: blue;
 }
+
 ul li a{
 	color: #fff;
 	text-decoration: none;
@@ -39,8 +42,29 @@ h2,p{
 	margin-bottom:20px;
 	padding:10px;
 }
-h2{
-	color:#3e4444;
+
+h1,p{
+	color: purple;
+	margin-bottom:20px;
+	padding:10px;
+}
+
+h2,section{
+	color:Green;
+	margin-bottom:20px;
+	padding:15px;
+}
+
+h3,section, li{
+	color: Brown;
+	margin-bottom:20px;
+	padding:18px;
+}
+
+h4,p{
+	color: red;
+	margin-bottom:15px;
+	padding:px;
 }
 
 p{
@@ -57,7 +81,6 @@ p{
 }
 
 .subsection{
-	height: 20%;
 	background: #41f444;
     padding-top: 50x;	
 }
@@ -72,7 +95,9 @@ p{
 .subSection3{
 	background: #00ffc9;
 	box-sizing: border-box;
+		
 }
+
 .subSection4{
 	background: #00ffc9;
 	box-sizing: border-box;
