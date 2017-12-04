@@ -123,15 +123,11 @@ p.inset
 .sec5{
 	background-image:url(images/contact.jpg);
 }
+/* Style the image*/
 img {
 	opacity:0.6;
 	filter: alpha(opacity=50);
 }
-
-
-
-
-
 
 
 
