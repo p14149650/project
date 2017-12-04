@@ -124,15 +124,42 @@ p.inset
 	background-image:url(images/contact.jpg);
 }
 /* Style the image*/
-img {
+.mypic {
 	opacity:0.6;
 	filter: alpha(opacity=50);
+	height: 320px;
+	width:320px;
 }
-img:hover{
+.societypic{
+	height: 100px;
+	width:100px;
+	magin-left: 0 auto 0 auto;
+	
+}
+.chesspic{
+	height: 100px;
+	width:100px;
+	magin-left: 0 auto 0 auto;
+	
+}
+.bikepic{
+	height: 100px;
+	width:100px;
+	magin-left: 0 auto 0 auto;
+	
+}
+.bookpic{
+	height: 100px;
+	width:100px;
+	magin-left: 0 auto 0 auto;
+	
+}
+.mypic:hover{
 	border: 2px solid red;
 	width: 390px;
 	height: 490px'
 }
+
 
 
 
@@ -156,7 +183,7 @@ img:hover{
 	 ul
 	 {
 		 width: 100%;
-		 display: none;
+		 
 	 }
 	 ul li
 	 {
