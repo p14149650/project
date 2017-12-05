@@ -12,7 +12,7 @@ header {
   color: #444;
 }
 nav {
-  background: #aaa;
+  background: #034f84;
   display: none;
 }
 nav a {
@@ -29,7 +29,7 @@ nav a {
   display: block;
 }
 a {
-  color: #000;
+  color: #fefbd8;
   text-decoration: none;
 }
 h1 {
@@ -69,7 +69,7 @@ h3,section, li{
 }
 
 h4,p{
-	color: red;
+	color: black;
 	margin-bottom:15px;
 	padding:px;
 }
@@ -174,7 +174,7 @@ p.inset
 @media screen and (min-width: 500px) {
   header {
     background: #444;
-    color: #ccc;
+    color: #034f84;
   }
   nav a {
     width: 44%;
@@ -205,7 +205,7 @@ p.inset
 
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   header {
     background: #222;
     color: #ccc;
@@ -226,7 +226,7 @@ p.inset
     section {
     width: 22%;
     margin: 1em 1% 1em 1%;
-    background: red;
+    background: #80ced6;
     border-color: #666;
     font-size: 1.5em;
   }
