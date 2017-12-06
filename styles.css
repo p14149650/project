@@ -1,12 +1,15 @@
 /* GLOBAL AND MOBILE STYLES FIRST */
 
-  body {
+  html,body {
   margin:0;
   padding:0;
   background: #222;
   color: #fff;
   text-align: center;
+  overflow-y: scroll;
+  scroll-behavior:smooth;
 }
+	
 header {
   background: #ccc;
   color: #444;
@@ -19,6 +22,21 @@ nav a {
   padding: 1em;
   display: block;
 }
+/*styles for top button */
+ .top{
+      display:circle;
+	  text-align:right;
+	  line-height: 1.70em;
+	  padding-right:0.5em;
+	  color:#db9833;
+	  
+ }
+ .top:hover {
+  background: rgba(200,200,200,0.96);
+  color: #db9833;
+ }
+ /*menu and section styles */
+ 
 #menu {
 
   padding: 1em;
@@ -39,10 +57,12 @@ h1 {
 }
 main {
   background: #eee;
-  padding: .5em;
+  padding: 5em;
+  
 }
 section {
   background: #888;
+  
 }
 
 h2,p{
@@ -85,6 +105,7 @@ p{
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
+	
 }
 
 .subsection{
@@ -114,6 +135,7 @@ p.inset
 {border-style: inset;
  margin: 1 auto;
 }
+/*hidden backgrounds ebhind section */
 
 .sec1{
 	background-image:url(images/road.jpg);
@@ -183,16 +205,18 @@ p.inset
   nav a:hover {
     background: blue;
   }
+ 
+ 
   h1 {
     font-size: 2em;
   }
   main {
     width: 100%;
     margin: 0 auto;
+    
   }
   section {
-    width: 44%;
-    margin: 2%;
+    
     display: inline-block;
     background: #444;
     color: #999;
@@ -220,9 +244,7 @@ p.inset
   #menu {
     display: none;
   }
-  main {
-    max-width: 1000px;
-  }
+ 
     section {
     width: 22%;
     margin: 1em 1% 1em 1%;
