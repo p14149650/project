@@ -24,11 +24,11 @@ nav a {
 }
 /*styles for top button */
  .top{
-      display:circle;
-	  text-align:right;
-	  line-height: 1.70em;
+      display:block;
+	  vertical-align:down;
+	  line-height: 2.70em;
 	  padding-right:0.5em;
-	  color:#db9833;
+	  color:#034f84;
 	  
  }
  .top:hover {
