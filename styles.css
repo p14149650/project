@@ -22,6 +22,11 @@ nav a {
   padding: 1em;
   display: block;
 }
+#mymap{
+	width:500px;
+    height:400px;
+    margin:auto;
+}
 /*styles for top button */
  .top{
       display:block;
@@ -65,10 +70,6 @@ section {
   
 }
 
-#map {
-  height: 400px;
-  width: 50%;
-}
 
 h2,p{
 	margin-bottom:20px;
@@ -165,7 +166,7 @@ p.inset
 	filter: alpha(opacity=50);
 	height: 320px;
 	width:320px;
-	margin:0;
+	margin:auto;
 }
 .societypic{
 	height: 100px;
