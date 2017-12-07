@@ -160,30 +160,27 @@ p.inset
 	filter: alpha(opacity=50);
 	height: 320px;
 	width:320px;
+	margin:0;
 }
 .societypic{
-	transition:opacity 0.3s ease-in-;
 	height: 100px;
-	width:100px;
-	magin-left: 0 auto 0 auto;
+	width: 90%;
+    margin: auto;
 	
 }
 .chesspic{
-	height: 100px;
-	width:100px;
-	magin-left: 0 auto 0 auto;
+	width: 90%;
+    margin: auto;
 	
 }
 .bikepic{
-	height: 100px;
-	width:100px;
-	magin-left: 0 auto 0 auto;
+	width: 90%;
+    margin: auto;
 	
 }
 .bookpic{
-	height: 100px;
-	width:100px;
-	magin-left: 0 auto 0 auto;
+	width: 90%;
+    margin: auto;
 	
 }
 .mypic:hover{
