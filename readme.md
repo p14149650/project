@@ -32,4 +32,16 @@ to get a different theme for each individual section.
 
 website goal: Hopefully the website will communicate through cv ideas to students and gain an insight into the skillsets they require when completing an application.
 
+References
+XiNature.com,.(2016) Night Nature Nights Roadway Lights Roads Road Full HD 1080p Background. [Online] Available from: http://xinature.com/nights-nature-roads-night-road-roadway-lights-free-desktop-wallpaper/night-nature-nights-roadway-lights-roads-road-full-hd-1080p-background/ [Accessed 7/12/2017]
+
+Wikipedia,. (2017) Question book-new.svg. [Online] Available from: https://en.wikipedia.org/wiki/File:Question_book-new.svg [Accessed 8/12/2017]
+
+Westbrookcycles,. (2017) Scott Spark 940 Full Suspension Mountain Bike (2017) | Westbrook Cycles. [Online] Available from: https://www.westbrookcycles.co.uk/scott-spark-940-full-suspension-mountain-bike-2017-p314460 [Accessed 8/12/2017]
+
+AlphaCoders,. (2017) Chess Full HD Wallpaper and Background | 1920x1200 | ID:415175. [Online] Available from: https://wall.alphacoders.com/big.php?i=415175 [Accessed 8/12/2017]
+
+KC SOC,. (2017) Krishna Consciousness society. [Online] Available from: https://krishnasoc.com/wp-content/uploads/2014/03/Logo.jpg [Accessed 8/12/2017]
+
+
  
