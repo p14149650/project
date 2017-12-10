@@ -80,6 +80,7 @@ h1,p{
 	color: purple;
 	margin-bottom:20px;
 	padding:10px;
+	margin:auto;
 }
 
 h2,section{
@@ -160,7 +161,7 @@ p.inset
 .sec5{
 	background-image:url(images/contact.jpg);
 }
-/* Style the image*/
+/* Style the image for section 2:common interests*/
 .mypic {
 	opacity:0.6;
 	filter: alpha(opacity=50);
@@ -168,11 +169,22 @@ p.inset
 	width:320px;
 	margin:auto;
 }
+.mypic:hover{
+	border: 2px solid red;
+	width: 390px;
+	height: 490px;
+}
 .societypic{
 	height: 100px;
 	width: 90%;
     margin: auto;
+	transition: all 0.7s ease-in-out;
+	opacity: 0.5
 	
+}
+.societypic:hover{
+	opacity: 1;
+	transform: rotate(360deg);
 }
 .chesspic{
 	width: 90%;
@@ -189,11 +201,35 @@ p.inset
     margin: auto;
 	
 }
-.mypic:hover{
-	border: 2px solid red;
-	width: 390px;
-	height: 490px;
+
+/* Style the image for section 3:skills*/
+.projectpic{
+	height: 100px;
+	width: 70%;
+    margin: auto;
 }
+.solvepic{
+	height: 100px;
+	width: 70%;
+    margin: auto
+	
+}
+.analyticalpic{
+	height: 100px;
+	width: 70%;
+    margin: auto
+}
+.presentpic{
+	height: 100px;
+	width: 70%;
+    margin: auto
+}
+.clockpic{
+	height: 100px;
+	width: 70%;
+    margin: auto
+}
+	
 
 
 /* FIRST BREAKPOINT (MEDIUM screen) */
