@@ -92,6 +92,7 @@ h2{
 	margin:auto;
 	padding:15px;
 }
+/*colour for placement skills heading */
 
 h3{
 	color: #ffffff;
@@ -106,17 +107,28 @@ section, li{
 	
 }
 
-h4,p{
-	color: black;
+/*colour for placement journey heading */
+h4{
+	color: brown;
 	margin-bottom:15px;
-	padding:px;
+	font-size:30px;
+	
 }
-
+/*sub heading colors */
 p{
+	text-align: left;
 	line-height:20px;
 	font-family:arial;
-	color:green;
+	color:red;
 	font-size: auto;
+}
+ul.list{
+	list-style-type:square;
+	list-style-position:inside;
+	font-size:15px;
+	padding: 15px;
+	text-align: left;
+
 }
 /* Style each subsections*/
 .section{
@@ -150,6 +162,9 @@ p{
 .subSection4{
 	background: #00ffc9;
 	box-sizing: border-box;
+	margin:10px;
+	padding-left:40px;
+	
 }
 
 /*hidden backgrounds ebhind section */
@@ -238,28 +253,29 @@ p{
 /* Style the image for section 3:skills*/
 .projectpic{
 	height: 100px;
-	width: 70%;
+	width: 90%;
     margin: auto;
+	
 }
 .solvepic{
 	height: 100px;
-	width: 70%;
+	width: 90%;
     margin: auto
 	
 }
 .analyticalpic{
 	height: 100px;
-	width: 70%;
+	width: 90%;
     margin: auto
 }
 .presentpic{
 	height: 100px;
-	width: 70%;
+	width: 90%;
     margin: auto
 }
 .clockpic{
 	height: 100px;
-	width: 70%;
+	width: 90%;
     margin: auto
 }
 	
