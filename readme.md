@@ -19,20 +19,20 @@ Links to my initial sketches will be located in the images folder.
 
 The aim and purpose of this website are to deliver my resume/cv profile to enable individuals on my course and other courses to get an insight into a resume format. The cv will present across consistent skill sets and where I've initially worked.
 
-Audience: My target audience will be university students who want to get an insight into writing a professional cv.
+##Audience: My target audience will be university students who want to get an insight into writing a professional cv.
 
-Proximity: the website will take into consideration sized images so that when the user views the site on a particular device
+##Proximity: the website will take into consideration sized images so that when the user views the site on a particular device
 it should resize the images accordingly.
 
-Alignment: The website has taken into consideration a single page website as this allows users to refer to individuals elements and by utilsing effects such as smooth control enables users to navigate each page with ease.
+##Alignment: The website has taken into consideration a single page website as this allows users to refer to individuals elements and by utilsing effects such as smooth control enables users to navigate each page with ease.
 
-Css Colours: The website aims to give each individual heading and subsections a CSS style with set rules to enable the user
+##Css Colours: The website aims to give each individual heading and subsections a CSS style with set rules to enable the user
 to understand the page they are referring to. I have tried to mix my CSS colours as I feel it would be appropriate for users
 to get a different theme for each individual section.
 
-website goal: Hopefully the website will communicate through cv ideas to students and gain an insight into the skillsets they require when completing an application.
+##website goal: Hopefully the website will communicate through cv ideas to students and gain an insight into the skillsets they require when completing an application.
 
-References
+##References
 XiNature.com,.(2016) Night Nature Nights Roadway Lights Roads Road Full HD 1080p Background. [Online] Available from: http://xinature.com/nights-nature-roads-night-road-roadway-lights-free-desktop-wallpaper/night-nature-nights-roadway-lights-roads-road-full-hd-1080p-background/ [Accessed 7/12/2017]
 
 Wikipedia,. (2017) Question book-new.svg. [Online] Available from: https://en.wikipedia.org/wiki/File:Question_book-new.svg [Accessed 8/12/2017]

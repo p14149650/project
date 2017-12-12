@@ -184,11 +184,12 @@ p{
 	height: 490px;
 }
 .societypic{
+	border-radius:50%;
 	height: 100px;
 	width: 90%;
     margin: auto;
 	transition: all 0.7s ease-in-out;
-	opacity: 0.5
+	opacity: 0.5;
 	
 }
 .societypic:hover{
@@ -198,18 +199,41 @@ p{
 .chesspic{
 	width: 90%;
     margin: auto;
+	transition: all 0.7s ease-in-out;
+	opacity: 0.5;
+	
+}
+.chesspic:hover{
+	opacity: 1;
+    transform: rotate(360deg);
 	
 }
 .bikepic{
+	border-radius:40%;
 	width: 90%;
     margin: auto;
+	transition: all 0.7s ease-in-out;
+	opacity: 0.5;
 	
 }
+.bikepic:hover {
+	opacity: 1;
+	transform: rotate(360deg);
+}
+
 .bookpic{
 	width: 90%;
     margin: auto;
+	transition: all 0.7s ease-in-out;
+	opacity: 0.5;
 	
 }
+.bookpic:hover{
+	opacity: 1;
+    transform: rotate(360deg);
+	
+}
+
 
 /* Style the image for section 3:skills*/
 .projectpic{
