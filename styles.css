@@ -46,8 +46,15 @@ nav a {
 #menu {
 
   padding: 1em;
-  background: blue;
+  background: brown;
   display: block;
+}
+.navbutton{
+	padding:0.05em;
+	height:50px;
+	margin:auto;
+	opacity: 8;
+	border-radius:30px;
 }
 .show-menu {
   display: block;
