@@ -23,8 +23,8 @@ nav a {
   display: block;
 }
 #mymap{
-	width:500px;
-    height:400px;
+	width:90%;
+    height:300px;
     margin:auto;
 }
 /*styles for top button */
@@ -111,6 +111,8 @@ h3{
 }
 section, li{
 	color: brown;
+	font-size:90%;
+	margin:auto;
 	
 }
 
