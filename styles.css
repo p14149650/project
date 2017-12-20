@@ -316,7 +316,7 @@ ul.list{
 .slide-img{
 	height: 90%;
 	position:absolute;
-	animation: round 126s infinite;
+	animation: round 12s infinite;
 	opacity:4;
 	border-radius:10%;
 	width:60%;
