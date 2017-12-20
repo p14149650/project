@@ -338,16 +338,17 @@ slide-img:nth-child(1) { animation-delay: 5s; }
 slide-img:nth-child(2) { animation-delay: 8s; }
 
 .card-container{
-	height:220px;
+	height:265px;
 	cursor:pointer;
 	perspective: 600;
 	position: relative;
-	width: 50%;
+	width: 70%;
 	margin:auto;
+	display: inline-block;
 }
 .card {
   height: 100%;
-  position: absolute;
+  position: middle;
   transform-style: preserve-3d;
   transition: all 2s ease-in-out;
   width: 100%;
