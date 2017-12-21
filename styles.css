@@ -62,6 +62,7 @@ nav a {
 a {
   color: #fefbd8;
   text-decoration: none;
+  
 }
 h1 {
   font-size: 1.5em;
@@ -91,6 +92,7 @@ h1,p{
 	margin-bottom:20px;
 	padding:10px;
 	margin:auto;
+	
 }
 
 h2{
@@ -130,14 +132,18 @@ p{
 	font-family:arial;
 	color:red;
 	font-size: auto;
+	margin-top:0;
+	margin-bottom:1.5em;
 }
+/* Style for my personal profile list items*/
 ul.personalprolist{
 	text-align: center;
 	color:brown;
 	font-size:19px;
 	list-style-type:circle;
+	font-weight: bold;
 	
-}
+}/* Style for my placement section list items*/
 ul.list{
 	list-style-type:square;
 	list-style-position:inside;
@@ -155,7 +161,7 @@ ul.list{
 	
 	
 }
-
+/* Style for the grid-box sections*/
 .subsection{
 	background: #41f444;
     padding-top: 50x;	
@@ -183,11 +189,12 @@ ul.list{
 	
 }
 
-/*hidden backgrounds ebhind section */
+/*hidden backgrounds behind the section(overlay) */
 
 .sec1{
 	background-image:url(images/road.jpg);
-	min-height:500px;
+	min-height:600px;
+	
 }
 .sec2{
 	background-image:url(images/interests.jpg);
@@ -201,7 +208,7 @@ ul.list{
 .sec5{
 	background-image:url(images/contact.jpg);
 }
-/* Style the image for section 2:common interests*/
+/* Style the image for section 1:personal profile*/
 .mypic {
 	opacity:0.6;
 	filter: alpha(opacity=50);
@@ -210,11 +217,45 @@ ul.list{
 	margin:auto;
 	
 }
+.computing{
+	border-radius:13%;
+	width: 90%;
+    margin: auto;
+	opacity: 7;
+	border: 3px solid blue;
+	height:75%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.den{
+	border-radius:13%;
+	width: 90%;
+    margin: auto;
+	opacity: 7;
+	border: 3px solid blue;
+	height:75%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.frontend{
+	border-radius:13%;
+	width: 90%;
+    margin: auto;
+	opacity: 7;
+	border: 3px solid blue;
+	height:75%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
 .mypic:hover{
 	border: 2px solid red;
 	width: 390px;
 	height: 490px;
 }
+/* images styled for section 2:common interests*/
 .societypic{
 	border-radius:50%;
 	width: 90%;
@@ -306,6 +347,7 @@ ul.list{
     margin: auto;
 	border: 6px solid #blue;
 }
+/* slideshow section for two images*/
 .slideshow{
 	width:150%;
 	position: relative;
@@ -337,14 +379,17 @@ ul.list{
 slide-img:nth-child(1) { animation-delay: 5s; }
 slide-img:nth-child(2) { animation-delay: 8s; }
 
+/* transitions utlised for images*/
+
 .card-container{
-	height:265px;
+	height:275px;
 	cursor:pointer;
 	perspective: 600;
 	position: relative;
 	width: 70%;
 	margin:auto;
 	display: inline-block;
+	padding: 0.6em;
 }
 .card {
   height: 100%;
@@ -365,13 +410,13 @@ slide-img:nth-child(2) { animation-delay: 8s; }
   position: absolute;
   overflow: hidden;
   width: 110%;
-  font-size:17px;
+  font-size:16px;
   
 }
 .card .back {
   background: blue;
   color: white;
-  line-height: 150px;
+  line-height: 50px;
   text-align:center;
   transform: rotateY(180deg);
 }
@@ -399,6 +444,10 @@ slide-img:nth-child(2) { animation-delay: 8s; }
  
   h1 {
     font-size: 2em;
+  }
+  p{
+	  line-height:1.75em;
+	  margin-bottom:1.75em;
   }
   main {
     width: 100%;
