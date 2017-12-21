@@ -47,12 +47,12 @@ nav a {
  
 #menu {
 
-  padding: 0.1em;
+  padding: 0.16em;
   background: brown;
   display: block;
 }
 .navbutton{
-	padding:0.04em;
+	padding:0.17em;
 	height:45px;
 	margin:auto;
 	opacity: 8;
@@ -221,7 +221,7 @@ ul.list{
 }
 .computing{
 	border-radius:13%;
-	width: 90%;
+	width: 70%;
     margin: auto;
 	opacity: 7;
 	border: 3px solid blue;
@@ -232,7 +232,7 @@ ul.list{
 }
 .den{
 	border-radius:13%;
-	width: 90%;
+	width: 70%;
     margin: auto;
 	opacity: 7;
 	border: 3px solid blue;
@@ -243,7 +243,7 @@ ul.list{
 }
 .frontend{
 	border-radius:13%;
-	width: 90%;
+	width: 70%;
     margin: auto;
 	opacity: 7;
 	border: 3px solid blue;
