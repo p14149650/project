@@ -319,7 +319,13 @@ ul.list{
 	width: 100%;
     margin: auto;
 	opacity: 0.5;
+	transition: all 0.7s ease-in-out;
 	border: 3px solid #3e4444;
+	
+}
+.projectpic:hover{
+	opacity: 1;
+    transform: rotateY(180deg);
 	
 }
 .solvepic{
@@ -327,14 +333,25 @@ ul.list{
 	width: 90%;
     margin: auto;
 	border: 3px solid #ffef96;
+	transition: all 0.7s ease-in-out;
 	
 }
+.solvepic:hover{
+	opacity: 1;
+    transform: rotateY(180deg);
+}
+
 .analyticalpic{
 	height:200px;
 	width: 90%;
     margin: auto;
 	border: 3px solid #cab577;
+	transition: all 0.7s ease-in-out;
 	
+}
+.analyticalpic:hover{
+	opacity: 1;
+    transform: rotateY(180deg);
 }
 .presentpic{
 	height:200px;
@@ -342,12 +359,22 @@ ul.list{
     margin: auto;
 	opacity: 0.5;
 	border: 3px solid #red;
+	transition: all 0.7s ease-in-out;
+}
+.presentpic:hover{
+	opacity: 1;
+    transform: rotateY(180deg);
 }
 .clockpic{
 	height:200px;
 	width: 90%;
     margin: auto;
 	border: 6px solid #blue;
+	transition: all 0.7s ease-in-out;
+}
+.clockpic:hover{
+	opacity: 1;
+    transform: rotateY(180deg);
 }
 /* slideshow section for two images*/
 .slideshow{
