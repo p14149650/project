@@ -47,13 +47,13 @@ nav a {
  
 #menu {
 
-  padding: 0.13em;
+  padding: 0.1em;
   background: brown;
   display: block;
 }
 .navbutton{
-	padding:0.4em;
-	height:40px;
+	padding:0.04em;
+	height:45px;
 	margin:auto;
 	opacity: 8;
 	border-radius:30px;
