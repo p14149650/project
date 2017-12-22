@@ -37,6 +37,8 @@ nav a {
 	  padding-right:0.5em;
 	  color:#034f84;
 	  margin-bottom: auto;
+	  font-size:21px;
+	  font-weight: bold;
 	  
  }
  .top:hover {
@@ -221,7 +223,7 @@ ul.list{
 }
 .computing{
 	border-radius:13%;
-	width: 70%;
+	width: 90%;
     margin: auto;
 	opacity: 7;
 	border: 3px solid blue;
@@ -232,7 +234,7 @@ ul.list{
 }
 .den{
 	border-radius:13%;
-	width: 70%;
+	width: 90%;
     margin: auto;
 	opacity: 7;
 	border: 3px solid blue;
@@ -243,7 +245,7 @@ ul.list{
 }
 .frontend{
 	border-radius:13%;
-	width: 70%;
+	width: 90%;
     margin: auto;
 	opacity: 7;
 	border: 3px solid blue;

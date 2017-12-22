@@ -1,27 +1,35 @@
 
-"use strict";
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('mymap'), {
+          zoom: 13,
+          center: {lat: 52.6298, lng: -1.1394}
+        });
 
-function initMap() {
-  let leicester = {lat: 52.6333, lng: -1.1333};
-  let dmu = {lat: 52.629311, lng: -1.137836};
-  let pahousing = {lat: 52.6295, lng: -1.124049};
-  let mapDemo = document.getElementById("mymap");
+        marker = new google.maps.Marker({
+          map: map,
+          draggable: true,
+          animation: google.maps.Animation.DROP,
+          position: {lat: 52.6298, lng: -1.1394}
+        });
+        marker.addListener('click', toggleBounce);
+      }
+	     // The following api creates a marker to DMU, using a DROP
+      // animation. Clicking on the marker will toggle the animation between a BOUNCE
 
-  // this sets the default location for when the map is first loaded
-  let map = new google.maps.Map(mapDemo, {
-    zoom: 13,
-    center: leicester
-  });
 
-  // these set different markers you want to show on your map
-  let markerDMU = new google.maps.Marker({
+      function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+          marker.setAnimation(null);
+        } else {
+          marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+		// these set different markers you want to show on your map
+  var markerpdmu = new google.maps.Marker({
     position: dmu,
     map: map,
-    title: 'My University'
-  });
-  let markerpahousing = new google.maps.Marker({
-    position: pahousing,
-    map: map,
-    title: 'placement and unviersity location'
+    title: 'my university'
+ 
   });
 }
+      
+	  
