@@ -2,14 +2,13 @@
 Module: CTEC3905 website
 
 
-My website is split into 4 sections which include my personal profile, my common interests, skills, and placement journey.
+-My website is split into 4 sections which include my personal profile, my common interests, skills, and placement journey.
 
+-My personal profile will display a rollover image of myself near the navigation tab with a background overlay image.
 
-My personal profile will display a rollover image of myself near the navigation tab with a background overlay image.
+-My common interests section will include bullet point tabs and images of the things that inspire me.
 
-My common interests section will include bullet point tabs and images of the things that inspire me.
-
-my skills section will also present a list and images to highlight my overall skill sets.
+-My skills section will also present a list and images to highlight my overall skill sets.
 
 
 I have considered a placement journey section which will include an API of a map displaying my placement location and university.
@@ -60,7 +59,13 @@ to get a different theme for each individual section.
 
 - SVETLANA, L. (2017) 'Usefull UI set of basic elements' by Lolenko Svetlana. [Online] Available from: https://www.iconfinder.com/icons/915684/bar_menu_mobile_navigation_responsive_ui_icon [Accessed 20/12/2017]
 
-- adapted card flip-anonymous,. (2017) Card Flip. [Online] Available from: https://codepen.io/shayhowe/pen/Fvjnf [Accessed 20/12/2017]
+-Smith, A. (2017) Why the UK Government won’t move to cloud…yet. [Online] Available from: https://www.itproportal.com/features/why-the-uk-government-wont-move-to-cloudyet/ [Accessed 22/12/2017]
+
+-anonymous,. (2017) Dragons Den Appearance - CreaseStream - Blog. [Online] Available from: http://www.creasestream.com/dragons_den_blog/ [Accessed 22/12/2017]
+
+- adapted card flip anonymous,. (2017) Card Flip. [Online] Available from: https://codepen.io/shayhowe/pen/Fvjnf [Accessed 20/12/2017]
+
+-Adopted loading page javascript anonymous,. (2015) How to Integrate your css3 preloader using javascript into your webpage!. [Online] Available from: https://codepen.io/smashtheshell/pen/vGaLyB [Accessed 22/12/2017]
 
 ## website testing
 
@@ -91,8 +96,16 @@ of the elements used apart from just huge chunks of text.
 
 ## overview
 - The slideshow was really simple and a nice red border has been applied to it to make it look appealing when resized in the browser.
-An extra few images about my placement would've been useful however due to the clarity of the images this wasn't possible and pixellated the image.
+An extra few images about my placement would've been useful however due to the clarity of the images this wasn't possible as it pixellated the image.
 
-- Javascript could have been considered for my google map API i.e I could've animated/pinpointed an arrow to my placement to make it more appealing.
-However, I did manage to resize the map so when viewed on the mobile it was responsive.
+- Javascript could have been creatively used on my website for e.g I utilised a google map API to display my university location with an animated bounce
+function. To improve this I could've focused on styling the API in terms of the border and adding a new feel for the pinpoint. However, due to the
+timescale, I was unable to style my map as there were complexities involved in naming various elements in the CSS.
+
+- Utilised a loading function in the background so that when the user clicks on my website it'll load in the background as if a page was loaded
+with all the content. I felt that this function could've been adapted better because it still displays my image while the content appears. On the one side
+I could've been more creative on the javascript side by increasing the time of the animation to show the end user that the page is loading however due to time
+this wasn't possible due to various elements correlating in my HTML.
+
+
 
