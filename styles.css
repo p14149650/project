@@ -311,7 +311,7 @@ ul.list{
 }
 .chesspic{
 	width: 90%;
-      margin: auto;
+    margin: auto;
 	transition: all 0.7s ease-in-out;
 	opacity: 0.5;
 	border: 4px solid brown;
@@ -353,8 +353,7 @@ ul.list{
 
 /* Style the image for section 3:skills*/
 .projectpic{
-	height:200px;
-	width: 100%;
+	width: 90%;
     margin: auto;
 	opacity: 0.5;
 	transition: all 0.7s ease-in-out;
@@ -367,7 +366,6 @@ ul.list{
 	
 }
 .solvepic{
-	height:200px;
 	width: 90%;
     margin: auto;
 	border: 3px solid #ffef96;
@@ -380,7 +378,6 @@ ul.list{
 }
 
 .analyticalpic{
-	height:200px;
 	width: 90%;
     margin: auto;
 	border: 3px solid #cab577;
@@ -392,7 +389,6 @@ ul.list{
     transform: rotateY(180deg);
 }
 .presentpic{
-	height:200px;
 	width: 90%;
     margin: auto;
 	opacity: 0.5;
@@ -404,7 +400,6 @@ ul.list{
     transform: rotateY(180deg);
 }
 .clockpic{
-	height:200px;
 	width: 90%;
     margin: auto;
 	border: 6px solid #blue;

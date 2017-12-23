@@ -2,13 +2,13 @@
 Module: CTEC3905 website
 
 
--My website is split into 4 sections which include my personal profile, my common interests, skills, and placement journey.
+- My website is split into 4 sections which include my personal profile, my common interests, skills, and placement journey.
 
--My personal profile will display a rollover image of myself near the navigation tab with a background overlay image.
+- My personal profile will display a rollover image of myself near the navigation tab with a background overlay image.
 
--My common interests section will include bullet point tabs and images of the things that inspire me.
+- My common interests section will include bullet point tabs and images of the things that inspire me.
 
--My skills section will also present a list and images to highlight my overall skill sets.
+- My skills section will also present a list and images to highlight my overall skill sets.
 
 
 I have considered a placement journey section which will include an API of a map displaying my placement location and university.
@@ -59,9 +59,9 @@ to get a different theme for each individual section.
 
 - SVETLANA, L. (2017) 'Usefull UI set of basic elements' by Lolenko Svetlana. [Online] Available from: https://www.iconfinder.com/icons/915684/bar_menu_mobile_navigation_responsive_ui_icon [Accessed 20/12/2017]
 
--Smith, A. (2017) Why the UK Government won’t move to cloud…yet. [Online] Available from: https://www.itproportal.com/features/why-the-uk-government-wont-move-to-cloudyet/ [Accessed 22/12/2017]
+- Smith, A. (2017) Why the UK Government won’t move to cloud…yet. [Online] Available from: https://www.itproportal.com/features/why-the-uk-government-wont-move-to-cloudyet/ [Accessed 22/12/2017]
 
--anonymous,. (2017) Dragons Den Appearance - CreaseStream - Blog. [Online] Available from: http://www.creasestream.com/dragons_den_blog/ [Accessed 22/12/2017]
+- anonymous,. (2017) Dragons Den Appearance - CreaseStream - Blog. [Online] Available from: http://www.creasestream.com/dragons_den_blog/ [Accessed 22/12/2017]
 
 - adapted card flip anonymous,. (2017) Card Flip. [Online] Available from: https://codepen.io/shayhowe/pen/Fvjnf [Accessed 20/12/2017]
 
