@@ -186,9 +186,9 @@ ul.personalprolist{
 }/* Style for my placement section list items*/
 ul.list{
 	list-style-type:square;
-	list-style-position:inside;
+	list-style-position:center;
 	font-size:20px;
-	padding: 15px;
+	padding-left: 15px;
 	text-align: left;
 
 }
@@ -235,6 +235,8 @@ ul.list{
 .sec1{
 	background-image:url(images/road.jpg);
 	min-height:600px;
+	width:90;
+	margin: auto;
 	
 }
 .sec2{
