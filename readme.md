@@ -31,7 +31,8 @@ The aim and purpose of this website are to deliver my resume/cv profile to enabl
 it should resize the images accordingly.
 
 ## Alignment: 
-- The website has taken into consideration a single page website as this allows users to refer to individuals elements and by utilising effects such as smooth control enables users to navigate each page with ease.
+- The website has taken into consideration a single page website that allows users to refer to individual elements and
+ by utilising effects such as smooth scroll between the pages enables users to navigate to each page with ease.
 
 ## Css Colours: 
 - The website aims to give each individual heading and subsections a CSS style with set rules to enable the user
@@ -77,7 +78,7 @@ to get a different theme for each individual section.
 ### simple and easy
 
 - the user was able to understand the website and its elements included in different subsections.
-The user found that the navigation tab was responsive in the way you could size the page and the menu bar would toggle.
+The user found that the navigation tab was responsive in the way you could size the page and the menu bar would toggle as per the device.
 
 - The users appreciated the fact that an image was included of me and they liked the hover over effect, in the way the
 image used a rotating transition to show what the particular element was about.
@@ -88,11 +89,11 @@ guide the user as a top section on its own wouldn't look appealing.
 
 - The images had a really nice border outline applied to make the website look more appealing
 and liked the fact that the images rotated as you hover over them providing ease of use and interaction to the user.
-However, the images could've been improved by resizing them appropriately.
+However, the images could've been improved by resizing them appropriately so that it doesn't cut the page.
 
 ## look and feel
 
-- The subsections were really nice in the way you resize the page and it changes to a different colour when set at a certain page size.
+- The subsections were really nice in the way you resize the page and it changes to a different colour depending the specific device you want to use.
 The use of the background overlay was really good with the gate effect overlaying with the binary background image making the website more insightful
 and appealing.
 
