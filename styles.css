@@ -204,7 +204,8 @@ ul.list{
 /* Style for the grid-box sections*/
 .subsection{
 	background: #41f444;
-    padding-top: 50x;	
+    padding-top: 50x;
+	
 }
 .subSection1{
 	background: #33f8ff;
@@ -421,7 +422,7 @@ ul.list{
 .slide-img{
 	height: 90%;
 	position:absolute;
-	animation: round 12s infinite;
+	animation: round 16s infinite;
 	opacity:4;
 	border-radius:10%;
 	width:60%;

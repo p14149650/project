@@ -11,10 +11,15 @@ Module: CTEC3905 website
 - My skills section will also present a list and images to highlight my overall skill sets.
 
 
-I have considered a placement journey section which will include an API of a map displaying my placement location and university.
+I have considered a placement journey section which will include an API of a map displaying my university location.
 
-Links to my initial sketches will be located in the images folder.
-
+## WireFrame Designs:
+- Index page:![Sketch 1] (images/wireframe-sketch/index.jpg)
+- Index page:![Sketch 2] (images/wireframe-sketch/personalprofile.jpg)
+- Index page:![Sketch 3] (images/wireframe-sketch/commoninterests.jpg)
+- Index page:![Sketch 4] (images/wireframe-sketch/skills.jpg)
+- Index page:![Sketch 5] (images/wireframe-sketch/placementjourney.jpg)
+- Index page:![Sketch 6] (images/wireframe-sketch/sitemap.jpg)
 
 The aim and purpose of this website are to deliver my resume/cv profile to enable individuals on my course and other courses to get an insight into a resume format. The cv will present across consistent skill sets and where I've initially worked.
 
