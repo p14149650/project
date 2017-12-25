@@ -10,8 +10,7 @@ Module: CTEC3905 website
 
 - My skills section will also present a list and images to highlight my overall skill sets.
 
-
-I have considered a placement journey section which will include an API of a map displaying my university location.
+- I have considered a placement journey section which will include an API of a map displaying my university location. Also, I have considered using social media icons such as Facebook, Twitter, and LinkedIn which allows the end user to access my curriculum vitae through the use of hovering over effects and styling.
 
 ## WireFrame Designs:
 - Index page:![Sketch 1] (images/wireframe-sketch/index.jpg)
@@ -71,11 +70,13 @@ to get a different theme for each individual section.
 
 - adapted card flip anonymous,. (2017) Card Flip. [Online] Available from: https://codepen.io/shayhowe/pen/Fvjnf [Accessed 20/12/2017]
 
--Adopted loading page javascript anonymous,. (2015) How to Integrate your css3 preloader using javascript into your webpage!. [Online] Available from: https://codepen.io/smashtheshell/pen/vGaLyB [Accessed 22/12/2017]
+- Adopted loading page javascript anonymous,. (2015) How to Integrate your css3 preloader using javascript into your webpage!. [Online] Available from: https://codepen.io/smashtheshell/pen/vGaLyB [Accessed 22/12/2017]
+
+- Adapted social media icons anonymous,. (2017) Social Icons - Hover Slide Transition. [Online] Available from: https://codepen.io/dante/pen/HhauA?page=3 [Accessed 25/12/2017]
 
 ## website testing
 
-### simple and easy
+## simple and easy
 
 - the user was able to understand the website and its elements included in different subsections.
 The user found that the navigation tab was responsive in the way you could size the page and the menu bar would toggle as per the device.
