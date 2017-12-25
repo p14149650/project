@@ -485,12 +485,6 @@ slide-img:nth-child(2) { animation-delay: 8s; }
   text-align:center;
   transform: rotateY(180deg);
 }
-	
-
-
-
-	
-
 
 /* FIRST BREAKPOINT (MEDIUM screen) */
 @media screen and (min-width: 520px) {

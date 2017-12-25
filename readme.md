@@ -113,5 +113,10 @@ with all the content. I felt that this function could've been adapted better bec
 I could've been more creative on the javascript side by increasing the time of the animation to show the end user that the page is loading however due to time
 this wasn't possible due to various elements correlating in my HTML.
 
+- Ran the website through am I responsive design: http://ami.responsivedesign.is/?url=https:%2F%2Fp14149650.github.io%2Fproject%2F%23. I entered my
+GitHub URL in the responsive link tab to see how my site looks on a computer, laptop, tablet, and mobile view. The site seemed quite responsive on each device,
+however, an issue was encountered with the navigation button not appearing on the GitHub master link and the code has been checked through notepad++ and the navigation button
+does appear when ran through firefox and chrome. When the code has been committed the navigation does toggle but the initial image of the button doesn't appear despite the code being assessed in the HTML and CSS.
+
 
 
