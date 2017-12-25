@@ -485,6 +485,64 @@ slide-img:nth-child(2) { animation-delay: 8s; }
   text-align:center;
   transform: rotateY(180deg);
 }
+/* Social media links and styles */
+#media-wrap {
+  width: 190px;
+  height: auto;
+  margin: 20px auto;
+  background-color:black;
+  border: 7px solid brown;
+  border-width: 40px;
+  padding-top:20px;
+  
+  }
+  
+.icon {
+  display: block;
+  width: 61px;
+  height: 60px;
+  float: center;
+  margin-top: 50px;
+  margin-right: 5px;
+  text-align: left;
+  background: transparent url(http://digital-hideaway.com/always/social-icons.png) 0 0 no-repeat;
+  background-size: 200px;
+  border-radius:17%;
+  background-color:yellow;
+  border:5px solid red;
+  margin:auto;
+}
+
+#twitter {
+  background-position: 0px 0px;
+  -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease; 
+   }
+
+#twitter:hover {
+  background-position: 0px -60px; 
+  }
+  
+#facebook {
+  background-position: -81px 0px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+  }
+  
+  #linkedin {
+  background-position: -139px 0px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+		  }
+  
+#facebook:hover {
+  background-position: -69px -62px; 
+  }
+  
+  #linkedin:hover {
+  background-position: -139px -62px; 
+  }
+
 
 /* FIRST BREAKPOINT (MEDIUM screen) */
 @media screen and (min-width: 520px) {
