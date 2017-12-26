@@ -14,7 +14,7 @@
 .rotate{
     width: 80px;
     height: 80px;
-	animation: load5 1.1s infinite ease;
+    animation: load5 1.1s infinite ease;
     border: 8px solid #ff0000;
     border-top:9px solid #f25a41;
     border-radius: 100%;
@@ -88,16 +88,18 @@ nav a {
   padding: 0.16em;
   background: brown;
   display: block;
+  padding:0.17em;
+  height:45px;
+  margin:auto;
+  opacity: 8;
+  border-radius:25px;
+  font-size:20px;
+  font-weight: bold;
 }
-.navbutton{
-	padding:0.17em;
-	height:45px;
-	margin:auto;
-	opacity: 8;
-	border-radius:30px;
-}
+
 .show-menu {
   display: block;
+  
 }
 a {
   color: #fefbd8;
