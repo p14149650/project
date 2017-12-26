@@ -171,7 +171,6 @@ p{
 	line-height:20px;
 	font-family:arial;
 	color:red;
-	font-size: auto;
 	margin-top:0;
 	margin-bottom:1.5em;
 }
@@ -186,7 +185,6 @@ ul.personalprolist{
 }/* Style for my placement section list items*/
 ul.list{
 	list-style-type:square;
-	list-style-position:center;
 	font-size:20px;
 	padding-left: 15px;
 	text-align: left;
@@ -204,7 +202,7 @@ ul.list{
 /* Style for the grid-box sections*/
 .subsection{
 	background: #41f444;
-    padding-top: 50x;
+    
 	
 }
 .subSection1{
@@ -235,7 +233,7 @@ ul.list{
 .sec1{
 	background-image:url(images/road.jpg);
 	min-height:600px;
-	width:90;
+	width:100%;
 	margin: auto;
 	
 }
@@ -395,7 +393,7 @@ ul.list{
 	width: 90%;
     margin: auto;
 	opacity: 0.5;
-	border: 3px solid #red;
+	border: 3px solid #ff3333;
 	transition: all 0.7s ease-in-out;
 }
 .presentpic:hover{
@@ -405,7 +403,7 @@ ul.list{
 .clockpic{
 	width: 90%;
     margin: auto;
-	border: 6px solid #blue;
+	border: 6px solid #4000ff;
 	transition: all 0.7s ease-in-out;
 }
 .clockpic:hover{
@@ -449,7 +447,7 @@ slide-img:nth-child(2) { animation-delay: 8s; }
 .card-container{
 	height:275px;
 	cursor:pointer;
-	perspective: 600;
+	perspective: 600px;
 	position: relative;
 	width: 70%;
 	margin:auto;
@@ -458,7 +456,6 @@ slide-img:nth-child(2) { animation-delay: 8s; }
 }
 .card {
   height: 100%;
-  position: middle;
   transform-style: preserve-3d;
   transition: all 2s ease-in-out;
   width: 100%;
@@ -502,7 +499,6 @@ slide-img:nth-child(2) { animation-delay: 8s; }
   display: block;
   width: 61px;
   height: 60px;
-  float: center;
   margin-top: 50px;
   margin-right: 5px;
   text-align: left;
