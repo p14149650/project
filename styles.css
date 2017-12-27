@@ -28,11 +28,10 @@
 }
 @keyframes spin {
      0% {
-    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -154,9 +153,11 @@ h3{
 	
 }
 section, li{
-	color: brown;
-	font-size:90%;
+	color: slateblue;
+	font-size:120%;
 	margin:auto;
+	text-align:left;
+	font-weight:bold;
 	
 }
 
@@ -241,6 +242,9 @@ ul.list{
 }
 .sec2{
 	background-image:url(images/interests.jpg);
+	min-height:600px;
+	width:100%;
+	margin: auto;
 }
 .sec3{
 	background-image:url(images/skills.png);
@@ -248,9 +252,7 @@ ul.list{
 .sec4{
 	background-image:url(images/wood.jpg);
 }
-.sec5{
-	background-image:url(images/contact.jpg);
-}
+
 /* Style the image for section 1:personal profile*/
 .mypic {
 	opacity:0.6;
@@ -300,12 +302,16 @@ ul.list{
 }
 /* images styled for section 2:common interests*/
 .societypic{
-	border-radius:50%;
-	width: 90%;
-    margin: auto;
+	border-radius:70%;
+	width: 50%;
+	height:30%;
+	margin:auto;
 	transition: all 0.7s ease-in-out;
 	opacity: 0.5;
 	border: 3px solid blue;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
 	
 }
 .societypic:hover{
@@ -313,10 +319,16 @@ ul.list{
 	transform: rotate(360deg);
 }
 .chesspic{
-	width: 90%;
-    margin: auto;
+	border-radius:30%;
+	width: 50%;
+	height:30%;
+	margin:auto;
 	transition: all 0.7s ease-in-out;
 	opacity: 0.5;
+	border: 3px solid blue;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
 	border: 4px solid brown;
 	
 }
@@ -326,11 +338,15 @@ ul.list{
 	
 }
 .bikepic{
-	border-radius:40%;
-	width: 90%;
-    margin: auto;
+   border-radius:30%;
+	width: 50%;
+	height:30%;
+	margin:auto;
 	transition: all 0.7s ease-in-out;
 	opacity: 0.5;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
 	border: 3px solid black;
 	
 }
@@ -340,10 +356,15 @@ ul.list{
 }
 
 .bookpic{
-	width: 90%;
-    margin: auto;
+	border-radius:70%;
+	width: 50%;
+	height:30%;
+	margin:auto;
 	transition: all 0.7s ease-in-out;
 	opacity: 0.5;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
 	border: 3px solid green;
 	
 }
@@ -356,9 +377,14 @@ ul.list{
 
 /* Style the image for section 3:skills*/
 .projectpic{
-	width: 90%;
-    margin: auto;
+	border-radius:70%;
+	width: 50%;
+	height:30%;
+	margin:auto;
 	opacity: 0.5;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
 	transition: all 0.7s ease-in-out;
 	border: 3px solid #3e4444;
 	
@@ -369,9 +395,15 @@ ul.list{
 	
 }
 .solvepic{
-	width: 90%;
-    margin: auto;
-	border: 3px solid #ffef96;
+	border-radius:70%;
+	width: 50%;
+	height:30%;
+	margin:auto;
+	opacity: 0.5;
+	border: 3px solid blue;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
 	transition: all 0.7s ease-in-out;
 	
 }
@@ -381,10 +413,17 @@ ul.list{
 }
 
 .analyticalpic{
-	width: 90%;
-    margin: auto;
-	border: 3px solid #cab577;
+	border-radius:70%;
+	width: 50%;
+	height:30%;
+	margin:auto;
+	opacity: 0.5;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
 	transition: all 0.7s ease-in-out;
+	border: 3px solid #cab577;
+	
 	
 }
 .analyticalpic:hover{
@@ -392,21 +431,34 @@ ul.list{
     transform: rotateY(180deg);
 }
 .presentpic{
-	width: 90%;
-    margin: auto;
+	border-radius:70%;
+	width: 50%;
+	height:30%;
+	margin:auto;
 	opacity: 0.5;
-	border: 3px solid #ff3333;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
 	transition: all 0.7s ease-in-out;
+	border: 3px solid #ff3333;
+	
 }
 .presentpic:hover{
 	opacity: 1;
     transform: rotateY(180deg);
 }
 .clockpic{
-	width: 90%;
-    margin: auto;
-	border: 6px solid #4000ff;
+	border-radius:70%;
+	width: 50%;
+	height:30%;
+	margin:auto;
+	opacity: 0.5;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
 	transition: all 0.7s ease-in-out;
+	border: 6px solid #4000ff;
+	
 }
 .clockpic:hover{
 	opacity: 1;
@@ -449,7 +501,7 @@ slide-img:nth-child(2) { animation-delay: 8s; }
 .card-container{
 	height:275px;
 	cursor:pointer;
-	perspective: 600px;
+	perspective: 800px;
 	position: relative;
 	width: 70%;
 	margin:auto;
@@ -480,9 +532,11 @@ slide-img:nth-child(2) { animation-delay: 8s; }
 .card .back {
   background: blue;
   color: white;
-  line-height: 50px;
+  line-height: 40px;
   text-align:center;
   transform: rotateY(180deg);
+  
+  
 }
 /* Social media links and styles */
 #media-wrap {
