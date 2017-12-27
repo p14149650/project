@@ -176,6 +176,8 @@ p{
 	color:red;
 	margin-top:0;
 	margin-bottom:1.5em;
+	max-width: 90em;
+    margin: 0 auto;
 }
 /* Style for my personal profile list items*/
 ul.personalprolist{
@@ -188,9 +190,10 @@ ul.personalprolist{
 }/* Style for my placement section list items*/
 ul.list{
 	list-style-type:square;
-	font-size:20px;
+	font-size:15px;
 	padding-left: 15px;
 	text-align: left;
+	
 
 }
 /* Style each subsections*/
@@ -356,7 +359,7 @@ ul.list{
 }
 
 .bookpic{
-	border-radius:70%;
+	border-radius:30%;
 	width: 50%;
 	height:30%;
 	margin:auto;

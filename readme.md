@@ -10,7 +10,8 @@ Module: CTEC3905 website
 
 - My skills section will also present a list and images to highlight my overall skill sets.
 
-- I have considered a placement journey section which will include an API of a map displaying my university location. Also, I have considered using social media icons such as Facebook, Twitter, and LinkedIn which allows the end user to access my curriculum vitae through the use of hovering over effects and styling.
+- I have considered a placement journey section which will include an API of a map displaying my university location. 
+Also, I have considered using social media icons such as Facebook, Twitter, and LinkedIn which allows the end user to access my curriculum vitae through the use of hovering over effects and styling to provide more interaction for the user.
 
 ## WireFrame Designs:
 - Index page:![Sketch 1] (images/wireframe-sketch/index.jpg)
@@ -26,7 +27,7 @@ The aim and purpose of this website are to deliver my resume/cv profile to enabl
 - My target audience will be university students who want to get an insight into writing a professional cv.
 
 ## Proximity: 
-- the website will take into consideration sized images so that when the user views the site on a particular device
+- The website will take into consideration sized images so that when the user views the site on a particular device
 it should resize the images accordingly.
 
 ## Alignment: 
@@ -74,7 +75,7 @@ to get a different theme for each individual section.
 
 - Adapted social media icons anonymous,. (2017) Social Icons - Hover Slide Transition. [Online] Available from: https://codepen.io/dante/pen/HhauA?page=3 [Accessed 25/12/2017]
 
-## website testing
+## website testing-Peer
 
 ## simple and easy
 
