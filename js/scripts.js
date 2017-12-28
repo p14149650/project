@@ -18,10 +18,11 @@
   }
 
 })();
-// loaing screen javascript
+// loading screen javascript: fetch the "overlay" element
 
 var overlay = document.getElementById("overlay");
 
+//apply the windows listening element to load the page in the background
 window.addEventListener('load', function(){
   overlay.style.display = 'none';
 })
