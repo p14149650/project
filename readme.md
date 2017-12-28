@@ -14,6 +14,11 @@ Module: CTEC3905 website
 Also, I have considered using social media icons such as Facebook, Twitter, and LinkedIn which allows the end user to access my curriculum vitae through the use of hovering over effects and styling to provide more interaction for the user.
 
 ## WireFrame Designs:
+
+The wireframe sketch includes all the subsections of my website, including a desktop element with a minimum-width measurement of
+900px. Also, a size of medium screens such as portable mobiles has also been included on my website with an approximate
+measurement of a minimum-width of 520px.
+
 - Index page:![Sketch 1] (images/wireframe-sketch/index.jpg)
 - Index page:![Sketch 2] (images/wireframe-sketch/personalprofile.jpg)
 - Index page:![Sketch 3] (images/wireframe-sketch/commoninterests.jpg)
@@ -110,9 +115,14 @@ of the elements used apart from just huge chunks of text.
 - The slideshow was really simple and a nice red border has been applied to it to make it look appealing when resized in the browser.
 An extra few images about my placement would've been useful however due to the clarity of the images this wasn't possible as it pixellated the image.
 
-- Javascript could have been creatively used on my website for e.g I utilised a google map API to display my university location with an animated bounce
+- The Javascript could have been creatively used on my website for e.g I utilised a google maps API to display my university location with an animated bounce
 function. To improve this I could've focused on styling the API in terms of the border and adding a new feel for the pinpoint. However, due to the
-timescale, I was unable to style my map as there were complexities involved in naming various elements in the CSS.
+timescale, I was unable to style my map as there were complexities involved in naming various elements in the CSS. Therefore, I have gone one step further
+by adding in an interactive "marker" click function which allows the user to click on the marker and the pinpoints
+drop on the map displaying the location of my university as well the location of my placement. This had an impact throughout
+the development of my website as I was able to assess the javascript function and tailor it well to my scenario through trial and testing and by utilising the CSS
+enabled me to style my marker function according to the end user to make it more appealing and interactive on the desktop and mobile views.
+
 
 - Utilised a loading function in the background so that when the user clicks on my website it'll load in the background as if a page was loaded
 with all the content. I felt that this function could've been adapted better because it still displays my image while the content appears. On the one side
