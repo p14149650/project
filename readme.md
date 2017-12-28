@@ -27,8 +27,10 @@ The aim and purpose of this website are to deliver my resume/cv profile to enabl
 - My target audience will be university students who want to get an insight into writing a professional cv.
 
 ## Proximity: 
-- The website will take into consideration sized images so that when the user views the site on a particular device
-it should resize the images accordingly.
+- The website will take into consideration correctly sized images so that when the user views the site on a particular device
+it should resize the images accordingly. The navigation bar is responsive so when the user resizes the web page
+it toggles the navbar elements into a closed menu tab which makes the website more accessible on any device similar
+to other website out there.
 
 ## Alignment: 
 - The website has taken into consideration a single page website that allows users to refer to individual elements and
