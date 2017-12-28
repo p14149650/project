@@ -36,7 +36,7 @@ to other website out there.
 - The website has taken into consideration a single page website that allows users to refer to individual elements and
  by utilising effects such as smooth scroll between the pages enables users to navigate to each page with ease.
 
-## Css Colours: 
+## CSS Colours: 
 - The website aims to give each individual heading and subsections a CSS style with set rules to enable the user
 to understand the page they are referring to. I have tried to mix my CSS colours as I feel it would be appropriate for users
 to get a different theme for each individual section.
@@ -71,11 +71,13 @@ to get a different theme for each individual section.
 
 - anonymous,. (2017) Dragons Den Appearance - CreaseStream - Blog. [Online] Available from: http://www.creasestream.com/dragons_den_blog/ [Accessed 22/12/2017]
 
-- adapted card flip anonymous,. (2017) Card Flip. [Online] Available from: https://codepen.io/shayhowe/pen/Fvjnf [Accessed 20/12/2017]
+- Adapted card flip anonymous,. (2017) Card Flip. [Online] Available from: https://codepen.io/shayhowe/pen/Fvjnf [Accessed 20/12/2017]
 
 - Adopted loading page javascript anonymous,. (2015) How to Integrate your css3 preloader using javascript into your webpage!. [Online] Available from: https://codepen.io/smashtheshell/pen/vGaLyB [Accessed 22/12/2017]
 
 - Adapted social media icons anonymous,. (2017) Social Icons - Hover Slide Transition. [Online] Available from: https://codepen.io/dante/pen/HhauA?page=3 [Accessed 25/12/2017]
+
+- Adapted google map api javascript with my locations anonymous,. (2017) Marker animations with <code>setTimeout()</code>  |  Google Maps JavaScript API  |  Google Developers. [Online] Available from: https://developers.google.com/maps/documentation/javascript/examples/marker-animations-iteration [Accessed 28/12/2017]
 
 ## website testing-Peer
 
