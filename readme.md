@@ -5,12 +5,14 @@ Module: CTEC3905 website
 - My website is split into 4 sections which include my personal profile, my common interests, skills, and placement journey.
 
 - My personal profile will display a rollover image of myself near the navigation tab with a background overlay image.
+Also, transition flip cards have been utilised on the images to enable the user to hover over the image and see the information.
 
-- My common interests section will include bullet point tabs and images of the things that inspire me.
+- My common interests section will include bullet point tabs and images of my skillsets from my resume.
+I have utilised a rotating transition/animation with a consistent border on the images to provide more interaction to the user.
 
-- My skills section will also present a list and images to highlight my overall skill sets.
+- My skills section will also present a list and transitions between images to highlight my overall skill sets.
 
-- I have considered a placement journey section which will include an API of a map displaying my university location. 
+- I have considered a placement journey section which will include an API of a map displaying my university/placement location.
 Also, I have considered using social media icons such as Facebook, Twitter, and LinkedIn which allows the end user to access my curriculum vitae through the use of hovering over effects and styling to provide more interaction for the user.
 
 ## WireFrame Designs:
@@ -35,7 +37,7 @@ The aim and purpose of this website are to deliver my resume/cv profile to enabl
 - The website will take into consideration correctly sized images so that when the user views the site on a particular device
 it should resize the images accordingly. The navigation bar is responsive so when the user resizes the web page
 it toggles the navbar elements into a closed menu tab which makes the website more accessible on any device similar
-to other website out there.
+to other websites out there.
 
 ## Alignment: 
 - The website has taken into consideration a single page website that allows users to refer to individual elements and
@@ -104,9 +106,10 @@ However, the images could've been improved by resizing them appropriately so tha
 
 ## look and feel
 
-- The subsections were really nice in the way you resize the page and it changes to a different colour depending the specific device you want to use.
+- The subsections were really nice in the way you resize the page and it changes to a different colour depending on the specific device you want to use.
 The use of the background overlay was really good with the gate effect overlaying with the binary background image making the website more insightful
 and appealing.
+
 
 - The text was also minimised through each section by including bullet points and images to give the user something to interact with and to attain a feeling
 of the elements used apart from just huge chunks of text.
