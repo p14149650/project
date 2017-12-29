@@ -519,7 +519,7 @@ ul.list{
 slide-img:nth-child(1) { animation-delay: 5s; }
 slide-img:nth-child(2) { animation-delay: 8s; }
 
-/* transitions utlised for images*/
+/* transitions utlised for images in container*/
 
 .card-container{
 	height:275px;

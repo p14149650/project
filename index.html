@@ -4,27 +4,37 @@
 <html lang="en">
 
 <head>
+<!-- Define the encoding character-->
 	<meta charset="utf-8">
 	<!-- Title for web page -->
 	<title>Ravi's Resume</title>
+	<!-- Tell the browser to render the code -->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<!-- Defined stylesheets for the webpage -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
+<!-- open the body tag-->
 <body>
+<!-- open the header tag-->
 	<header>
 	<!-- class for loading screen in the background-->
 	<div id="overlay">
+	
+<!-- Define class for rotating element-->	
 <div class="rotate"></div>
-<h1 class="reloading">Loading up</h1> 
+
+<!-- Define the class for the loading heading-->
+<h1 class="reloading">Loading up</h1>
+ 
+<!-- close the div tag for the loading function-->
 </div>
+        <!-- Define the menu tag-->
 		<a id="menu" href="#">Menu</a>
 			
-
+             <!-- open nav tag-->
 			<nav id="nav-menu">
-				<!-- Navbar--> 
+				<!-- Navbar links to sections--> 
 				<a href="#personal">Personal Profile</a>
 				<a href="#common">Common Interests</a>
 				<a href="#skills">Skills</a>
@@ -32,7 +42,7 @@
 				
 			<!-- closing the navbar element--> 	
 			</nav>
-			<!-- image of me underneath the navbar-->
+			<!-- Define the image-->
 			<div class="side">
 				<img src="images/ravi.jpg" class="mypic" alt="ravi">
 			</div>
@@ -43,6 +53,7 @@
 	</header>
 	<div class="section sec1"></div>
 	<div class="subSection1"></div>
+	<!-- Define the nav link-->
 		<div id="personal">
 			<!-- content for tab 1: HTML5 -->
 			<h1>Personal Profile</h1>
@@ -82,6 +93,7 @@
 		</div>
 		<div class="section sec2"></div>
 			<div class="subSection2"></div>
+			<!-- Define the nav link-->
 				<div id="common">
 					<!-- content for tab 2: HTML5 -->
 			<h2>Common Interests</h2>
@@ -112,6 +124,7 @@
 				</div>
 				<div class="section sec3"></div>
 				<div class="subSection3"></div>
+				<!-- Define the nav link-->
 					<div id="skills"></div>
 						<!-- content for tab 3: HTML5 -->
 						<h3>Skills</h3>
@@ -141,6 +154,7 @@
 								</footer>
 						
 						</div>
+						<!-- Define the element for the map-->
 						<div id="mymap"></div>
 						<div id="float">
 						   <!-- set the onclick button for the marker -->
@@ -150,11 +164,13 @@
 						
 						<div class="section sec4">
 							<div class="subSection4">
+							<!-- Define the nav link-->
 								<div id="placement">
 									<!-- content for tab 4: HTML5 -->
 								</div>
 								<h4>Placement Journey</h4>
 								<p>My placemnt was carried out at Paragon housing group where I worked on the IT service desk and the map on the top displays my university and placement location. The following skills I gained from the placement was:</p>
+								<!-- Define the list class-->
 								<ul class="list">
 									<!-- image list for slideshow -->
 									<div class="slideshow">
@@ -174,6 +190,7 @@
 								</ul>
 							</div>
 							<div class="section sec5"></div>
+							<!-- open the footer tag -->
 							<footer>
 							<!-- Social media section icons and links -->
 							 <div id="media-wrap">
@@ -183,10 +200,14 @@
 									</div>									
 								<a>Created by Ravi 2017&copy;</a>
 									<a class="top" href="#nav-menu">Top</a>
+							<!-- closing the footer tag -->
 							</footer>
+				<!-- google maps api key/link -->		
 				<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzbZkI5f7Q90ZzFMUa7D8sIaBWcqWCEHE&callback=initMap"></script>
+				<!-- links to javascript files -->
 				<script src="js/scripts.js"></script>
 				<script src="js/scriptsmaps.js"></script>
+				<!-- close the body tag-->
                  </body>
              <!-- close the html tag-->
         </html>
