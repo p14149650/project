@@ -6,7 +6,7 @@
   background: #222;
   color: #C0C0C0;
   text-align: center;
-  overflow-y: scroll;
+  overflow-x: hidden;
   scroll-behavior:smooth;
 }
 
