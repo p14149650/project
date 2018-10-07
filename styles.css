@@ -562,62 +562,111 @@ slide-img:nth-child(2) { animation-delay: 8s; }
   
 }
 /* Social media links and styles */
-#media-wrap {
-  width: 190px;
-  height: auto;
-  margin: 20px auto;
-  background-color:black;
-  border: 7px solid brown;
-  border-width: 40px;
-  padding-top:20px;
-  padding-left:10px;
-  
-  }
-  
-.icon {
-  display: block;
-  width: 61px;
-  height: 60px;
-  margin-top: 50px;
-  margin-right: 5px;
-  text-align: left;
-  background: transparent url(http://digital-hideaway.com/always/social-icons.png) 0 0 no-repeat;
-  background-size: 200px;
-  border-radius:17%;
-  background-color:yellow;
-  border:5px solid red;
-  margin:auto;
+a {
+  text-decoration: none;
+}
+html {
+    background-color: #e2e2e2;
+}
+.container {
+  margin: 120px auto 0;
+  width: 480px;
+  height: 240px;
 }
 
-#twitter {
-  background-position: 0px 0px;
-  -webkit-transition: all 0.3s ease;
-   transition: all 0.3s ease; 
-   }
+.social-box {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
 
-#twitter:hover {
-  background-position: 0px -60px; 
-  }
-  
-#facebook {
-  background-position: -81px 0px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; 
-  }
-  
-  #linkedin {
-  background-position: -139px 0px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; 
-		  }
-  
-#facebook:hover {
-  background-position: -69px -62px; 
-  }
-  
-  #linkedin:hover {
-  background-position: -139px -62px; 
-  }
+.sharer {
+  display: flex;
+  position: relative;
+  width: 80px; 
+  height: 80px;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  font-size: 28px;
+}
+
+.sharer, .sharer::before, .sharer::after {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.sharer:hover .fa {
+  display: none;
+}
+
+.sharer:hover::before {
+  top: -40%;
+}
+
+.sharer.success::before {
+  top: -208%;
+}
+
+.sharer:hover::after {
+  display: flex;
+}
+
+.sharer.success.success::after {content: "Success!";}
+.fb.sharer.success::after {color: #3B5998;}
+.tr.sharer.success::after {color: #00ACED;}
+.pi.sharer.success::after {color: #C92228;}
+
+
+.sharer::before {
+  display: block;
+  content: "";
+  z-index: 5;
+  position: absolute;
+  top: 127%;
+  left: -40%;
+  align-items: center;
+  width: 180%;
+  height: 180%;
+  transition: all .65s cubic-bezier(.64,0,.34,1.5); 
+  transform: rotate(45deg);
+}
+
+.fb.sharer::before {background-color: #3B5998;}
+.tr.sharer::before {background-color: #00ACED;}
+.pi.sharer::before {background-color: #C92228;}
+
+.sharer::after {
+  display: none;
+  position: relative;
+  margin: auto;
+  z-index: 10;
+  font-size: .45em;
+  line-height: 1.3em;
+  color: #fff;
+  transition: all .3s cubic-bezier(.64,0,.34,1.5); 
+}
+
+.fb.sharer::after {content:"3k likes";}
+.tr.sharer::after {content:"4.2k rets";}
+.pi.sharer::after {content:"2.1k pins";}
+
+.fa {
+  margin: auto;
+}
+
+.fa-facebook {
+  color: #3B5998;
+  font-size: .88em;
+}
+.fa-twitter {
+  color: #00ACED;
+}
+.fa-pinterest-p {
+  color: #C92228;
+  font-size: .95em;
+}
 
 
 /* FIRST BREAKPOINT (MEDIUM screen) */
